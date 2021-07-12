@@ -1,5 +1,5 @@
 
-## Important CRUD Class, Method And Tips
+## Important CRUD Class, Methods And Tips
 
 #### Table Of Content
 
