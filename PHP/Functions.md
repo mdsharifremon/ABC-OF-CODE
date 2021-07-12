@@ -7,8 +7,8 @@
 * [Validate Reas Escape](#real-escape)
 
 <details>
-    <summary>
-        Print array to check the data and exit.</summary>
+    <summary>Print array to check the data and exit.</summary>
+   
 ```php
 function printArrExit($arr)
 {
@@ -16,20 +16,24 @@ function printArrExit($arr)
     print_r($arr);
     echo "</pre>";
     exit();
-}
+}  
 ``` 
 </details>
 
 <a name="real-escape"></a>
 #### Real Escape
+
+```php
 function escape_safe($str){
     return mysqli_escape_string($conn, $str);
 }
+```
 
 <a name="validate-string"></a>
 
 #### Validate String
 
+```php
 function validate($data){
     if($data != ''){
         $data = trim($data);
@@ -38,9 +42,13 @@ function validate($data){
         return $data;
     }
 }
+```
+
 
 <a name="validate-email"></a>
 #### Validate email
+
+```php
 function email($data)
 {
     if ($data != '') {
@@ -52,3 +60,4 @@ function email($data)
         }
     }
 }
+```
