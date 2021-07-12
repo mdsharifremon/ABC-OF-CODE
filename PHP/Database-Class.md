@@ -1,5 +1,5 @@
 
-## Important crud classes
+## Important CRUD Classes
 
 #### Table Of Content
 
@@ -9,7 +9,7 @@
 <a name="connection"></a>
 
 <details> 
-    <summary> Connection Classe </summary>
+    <summary> <b>Connection Classe</b> </summary>
     
 ```php
 class Database
