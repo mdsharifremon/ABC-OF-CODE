@@ -6,8 +6,8 @@
 * [Validate Email](#validate-email)
 * [Validate Reas Escape](#real-escape)
 
-<details>
-    <summary>Print array to check the data and exit.</summary>
+
+#### #Print array to check the data and exit.
    
 ```php
 function printArrExit($arr)
@@ -18,10 +18,10 @@ function printArrExit($arr)
     exit();
 }  
 ``` 
-</details>
+
 
 <a name="real-escape"></a>
-#### Real Escape
+#### #Real Escape
 
 ```php
 function escape_safe($str){
@@ -31,7 +31,7 @@ function escape_safe($str){
 
 <a name="validate-string"></a>
 
-#### Validate String
+#### #Validate String
 
 ```php
 function validate($data){
@@ -46,7 +46,7 @@ function validate($data){
 
 
 <a name="validate-email"></a>
-#### Validate email
+#### #Validate email
 
 ```php
 function email($data)
