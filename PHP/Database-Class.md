@@ -1,4 +1,16 @@
 
+## Important crud classes
+
+#### Table Of Content
+
+* [Database Connection](#connection)
+
+
+<a name="connection"></a>
+
+<details> 
+    <summary> Connection Classe </summary>
+    
 ```php
 class Database
 {
@@ -28,3 +40,5 @@ class Database
         }
     }
 ```
+    
+</details>
