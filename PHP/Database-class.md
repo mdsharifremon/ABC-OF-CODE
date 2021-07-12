@@ -1,5 +1,5 @@
-<?php 
 
+```php
 class Database
 {
     private string $hostname = 'localhost';
@@ -27,6 +27,4 @@ class Database
             $this->conn = null;
         }
     }
-
-
-?>
+```
