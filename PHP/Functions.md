@@ -1,5 +1,15 @@
-// Print array to check the data and exit.
+## PHP Functions
 
+#### Table Of Content
+* [Print Array to Check](#print-array)
+* [Validate String](#validate-string)
+* [Validate Email](#validate-email)
+* [Validate Reas Escape](#real-escape)
+
+<details>
+    <summary>
+        Print array to check the data and exit.</summary>
+```php
 function printArrExit($arr)
 {
     echo "<pre>";
@@ -7,14 +17,18 @@ function printArrExit($arr)
     echo "</pre>";
     exit();
 }
+``` 
+</details>
 
-// Escape safe
+<a name="real-escape"></a>
+#### Real Escape
 function escape_safe($str){
     return mysqli_escape_string($conn, $str);
 }
 
+<a name="validate-string"></a>
 
-// Validate String
+#### Validate String
 
 function validate($data){
     if($data != ''){
@@ -25,8 +39,8 @@ function validate($data){
     }
 }
 
-
-// Validate email
+<a name="validate-email"></a>
+#### Validate email
 function email($data)
 {
     if ($data != '') {
