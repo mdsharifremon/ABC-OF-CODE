@@ -9,7 +9,7 @@
 <a name="connection"></a>
 
 <details> 
-    <summary> <b>Connection Classe</b> </summary>
+    <summary> <b>Connection Class</b> </summary>
     
 ```php
 class Database
