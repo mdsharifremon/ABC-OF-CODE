@@ -18,8 +18,6 @@ function printArrExit($arr)
     exit();
 }  
 ``` 
-
-
 <a name="real-escape"></a>
 #### #Real Escape
 
@@ -28,9 +26,7 @@ function escape_safe($str){
     return mysqli_escape_string($conn, $str);
 }
 ```
-
 <a name="validate-string"></a>
-
 #### #Validate String
 
 ```php
@@ -43,8 +39,6 @@ function validate($data){
     }
 }
 ```
-
-
 <a name="validate-email"></a>
 #### #Validate email
 
