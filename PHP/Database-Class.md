@@ -4,6 +4,7 @@
 #### Table Of Content
 
 * [Database Connection](#connection)
+* [Fetch All Data Method](#fetch-all)
 
 
 <a name="connection"></a>
@@ -41,4 +42,16 @@ class Database
     }
 ```
     
+</details>
+
+<a name="fetch-all"></a>
+<details>
+    <summary><b>Fetch All Data From A Table</b></summary>
+    
+```php 
+    // Fetch All Data From A Table
+    public function()
+    {
+    }
+```
 </details>
