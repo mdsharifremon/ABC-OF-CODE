@@ -1,4 +1,4 @@
-## scss folder structure
+## Sass folder structure
 <pre>
 sass/
 |
